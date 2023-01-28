@@ -1,0 +1,138 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color:var(--white-color)
+}
+:root{
+
+  --primary-color:#231f20;
+  --secondary-color: #292929;
+  --white-color:#ffffff;
+
+}
+html{
+  scroll-behavior: smooth;
+}
+::-webkit-scrollbar{
+  width: .625rem;
+}
+::-webkit-scrollbar-track{
+  background: var(--white-color)
+}
+::-webkit-scrollbar-thumb{
+  background: var(--secondary-color)
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+h1{
+  color: var(--secondary-color);
+  
+}
+
+
+.header{
+  background-position: fixed;
+  background-color: var(--primary-color) ;
+  height: 5rem;
+  text-align: end;
+  
+}
+.header ul li {
+  display: inline-block;
+  padding-top: 1rem;
+  padding-inline: 1rem;
+}
+
+.header .link{
+  text-decoration: none;
+  font-size: 1.25rem;
+  text-transform: uppercase;
+  padding-left: 1rem;
+  color:white ;
+
+}
+.header img{
+  width: 10rem;
+  height: 5rem;
+ padding: 1rem;
+  
+}
+
+.link:hover{
+  border: 1px solid var(--white-color);  
+  padding: 1rem;
+  transition-delay: 100ms;
+  
+}
+
+.carousel{
+  height: 20rem;
+  
+}
+
+.carousel-item img{
+  height: 35rem;
+
+}
+
+#card{
+
+ display: inline-block;
+ width: 18rem;
+ padding: 1rem;
+}
+
+.card >img{
+  height: 12rem;
+  width: 12rem;
+  margin-left: 2rem;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  transition-delay: 50ms;
+ transform-style: preserve-3d;
+ border: 2px solid var(--primary-color);
+
+}
+
+.card pre{
+  font-size: 1rem;
+  font-weight: bold;
+  color: dodgerblue;
+}
+ 
+.footer{
+  background-color: var(--primary-color);
+  margin-top: 2rem;
+  color: var(--white-color); 
+}
+.footer li{
+ color: var(--primary-color);
+ 
+}
+
+.footer a{
+  color: var(--white-color);
+  text-decoration: none;
+}
+.footer a:hover{
+  border-bottom:1px solid var(--white-color);
+}
+.footer img{
+  height: 50%;
+}
+.footer .details{
+  font-size: .75rem;
+  padding-bottom: 1rem;
+}
+.form{
+ margin-top: 2rem;
+ 
+}
